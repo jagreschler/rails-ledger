@@ -24,7 +24,7 @@ Test behavior and rules a user would notice. Never hard-code stored data (exact 
 
 ## Ruby style
 
-Never use `unless`, and never use `!x` negation. Write `if` with `.present?`, `.blank?`, `.nil?`, or `== false` instead (in Rails prefer `.present?`). Predicates end in `?` with no `is_` or `get_` prefix. Named intermediate variables over long chains. Noun class names. Event-driven design for side effects: a class publishes a past-tense event and handlers react; it does not run downstream effects itself.
+Never use `unless`, and never use `!x` negation. Write `if` with `.present?`, `.blank?`, `.nil?`, or `== false` instead (in Rails prefer `.present?`). Named intermediate variables over long chains. Noun class names. Event-driven design for side effects: a class publishes a past-tense event and handlers react; it does not run downstream effects itself.
 
 ## Wording
 
